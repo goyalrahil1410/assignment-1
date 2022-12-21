@@ -6,7 +6,7 @@ Standard_deduction = 10000
 Dependent_deduction = 3000
 
 Taxable_income = a-10000-(Dependent_deduction*b)
-d = Taxable_income * Tax_rate
+d = Taxable_income * Tax_rate/100
 if Taxable_income < 0 :
     print("Tax = 0. No tax")
 else:
